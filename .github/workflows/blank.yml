@@ -77,4 +77,11 @@ admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://descarga-video-de.firebaseio.com"
 });
-
+trace.putAttribute("experiment", "A");
+"publishConfig": { "registry": "https://npm.pkg.github.com/" }https://github.com/users/junior10875/projects/1#card-42120288var trace = Performance.sharedInstance().trace(name:"myTrace")
+trace.setValue("A",android {
+  // ...
+  buildTypes {
+    debug {
+      FirebasePerformance {
+        // Set this flag to 'false' to disable @AddTrace annotation processing and
