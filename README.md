@@ -9,4 +9,4 @@ http://www.appcreator24.com/app1125752?mode
 https://developers.google.com/analytics/devguides/collection/firebase/android#implementation_path
   
 
-
+"publishConfig": { "registry": "https://npm.pkg.github.com/" }
