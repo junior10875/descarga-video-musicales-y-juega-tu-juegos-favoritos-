@@ -84,4 +84,4 @@ trace.setValue("A",android {
   buildTypes {
     debug {
       FirebasePerformance {
-        // Set this flag to 'false' to disable @AddTrace annotation processing and
+        // Set this flag to 'false' to disable @AddTrace annotation processing and.
