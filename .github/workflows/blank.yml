@@ -42,7 +42,8 @@ jobs:
       "client_info": {
         "mobilesdk_app_id": "1:416261235406:android:7086d053f4a6dd9ce8269f",
         "android_client_info": {
-          "package_name": "descarga.descargavideoymusicayjuegatujueg"
+          "package_name": "descarga.descargavideoymusicayjuegatujueg";
+
         }
       },
       "oauth_client": [
