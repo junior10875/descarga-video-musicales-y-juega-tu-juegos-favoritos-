@@ -1,81 +1,8 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.{
-  "project_info": {
-    "project_number": "416261235406",
-    "firebase_url": "https://descarga-video-de-4097b.firebaseio.com",
-    "project_id": "descarga-video-de-4097b",
-    "storage_bucket": "descarga-video-de-4097b.appspot.com"
-  },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:416261235406:android:7086d053f4a6dd9ce8269f",
-        "android_client_info": {
-          "package_name": "descarga.descargavideoymusicayjuegatujueg";
-
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "416261235406-8bpqf1naapeujar7q1l3l2nru1k7099l.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyC2VgfCUf0DCF3SUKTb_FR2pBPsjEQ4410"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "416261235406-8bpqf1naapeujar7q1l3l2nru1k7099l.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "configuration_version": "1"
-};var admin = require("firebase-admin");
-
-var serviceAccount = require("path/to/serviceAccountKey.json");
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://descarga-video-de.firebaseio.com"
-});
-
+project_number
+416261235406
+firebase_url
+https://descarga-video-de-4097b.firebaseio.com
+project_id
+descarga-video-de-4097b
+storage_bucket
+descarga-video-de-4097b.appspot.com
